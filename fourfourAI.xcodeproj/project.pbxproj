@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3DBDEC871D53EF1000794CBD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDEC861D53EF1000794CBD /* main.cpp */; };
+		3DBDEC8F1D53EF7B00794CBD /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDEC8D1D53EF7B00794CBD /* Game.cpp */; };
+		3DBDEC921D53FB3C00794CBD /* FourfourAI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDEC901D53FB3C00794CBD /* FourfourAI.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		3DBDEC831D53EF1000794CBD /* fourfourAI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fourfourAI; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBDEC861D53EF1000794CBD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3DBDEC8D1D53EF7B00794CBD /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		3DBDEC8E1D53EF7B00794CBD /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		3DBDEC901D53FB3C00794CBD /* FourfourAI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FourfourAI.cpp; sourceTree = "<group>"; };
+		3DBDEC911D53FB3C00794CBD /* FourfourAI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FourfourAI.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				3DBDEC861D53EF1000794CBD /* main.cpp */,
+				3DBDEC8D1D53EF7B00794CBD /* Game.cpp */,
+				3DBDEC8E1D53EF7B00794CBD /* Game.hpp */,
+				3DBDEC901D53FB3C00794CBD /* FourfourAI.cpp */,
+				3DBDEC911D53FB3C00794CBD /* FourfourAI.hpp */,
 			);
 			path = fourfourAI;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DBDEC871D53EF1000794CBD /* main.cpp in Sources */,
+				3DBDEC8F1D53EF7B00794CBD /* Game.cpp in Sources */,
+				3DBDEC921D53FB3C00794CBD /* FourfourAI.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
